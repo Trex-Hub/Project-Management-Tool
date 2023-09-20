@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background: linear-gradient(to right, #ce8eec,#9f13ea,#841abc,#500479);
+     background-image: url("./bg.avif");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.container-1 {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.40);
+    transform-style: preserve-3d;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.head-2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.identifier{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.form-control{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 input,span {
+    display: block;
+}
+::placeholder{
+    opacity: 0.4;
+}
+.container-1 input {
+    width: 115%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.well {
+    background: rgb(248, 248, 248);
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    font-size: 1.4rem;
+}
+#savebtn {
+    font-size: 1.5rem;
+    background: #0730e9;
+    outline: none;
+    border: none;
+    width: 40%;
+    color: white;
+    border-radius: 10px;
+}
+
+#savebtn:hover {
+    background: #0423ad;
+}
+
+#clrbtn {
+    font-size: 1.5rem;
+    background: #b90404;
+    outline: none;
+    float: right;
+    border: none;
+}
+
+#clrbtn:hover {
+    background: #b40404;
+}
+
+
+/* issue list */
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #333;
+    margin-bottom: 0.7rem;
+    padding: 12px 2px;
+}
+
+.labid span {
+    background: rgb(255, 94, 0);
+    color: rgb(255, 255, 255);
+}
+
+.labid h6 {
+    margin-top: 5px;
+}
+
+.well p glyphicon-user {
+    margin-left: 1rem;
+    padding: 5rem;
+}
+
+.well #closebtn {
+    background: rgb(4, 161, 38);
+    outline: none;
+    border: none;
+    color: white;
+
+}
+
+.well #closebtn:hover {
+    background: rgb(3, 119, 28);
+}
+
+.well #delbtn {
+    background: rgb(219, 4, 4);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.well #delbtn:hover {
+    background: rgb(173, 2, 2);
+}
+
+
+/* back button */
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    color: rgb(255, 255, 255);
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 10px;
+
+}
