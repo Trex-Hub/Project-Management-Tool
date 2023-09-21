@@ -1,4 +1,4 @@
-# Temperature Converter
+# Project Management Tool
 
 A simple website that will manage the project assigned to other people.
 
